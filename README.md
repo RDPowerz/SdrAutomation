@@ -1,5 +1,5 @@
 # SdrAutomation
-SdrAutomation: Some scripts to automate use of SDR applications.  
+Some scripts to automate use of SDR applications.  
 
 The initial script is one that starts gqrx.  
 
