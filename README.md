@@ -14,7 +14,7 @@ Steps:
 0) Install tools used by this script (assumes you have gqrx and wsjtx installed and configured already)
 
 ```
-$ sudo apt install -y wmctrl netcat xdotool
+$ sudo apt install -y wmctrl netcat-openbsd xdotool
 ```
 
 1) Setup LXDE autostart
