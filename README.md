@@ -11,7 +11,7 @@ See the no-wayland.txt file in this repo if you want to switch from Wayland to X
 
 Steps:
 
-0) Install needed tools 
+0) Install tools used by this script (assumes you have gqrx and wsjtx installed and configured already)
 
 ```
 $ sudo apt install -y wmctrl netcat xdotool
