@@ -9,7 +9,7 @@ Steps:
 
 0) Install needed tools 
 
-sudo apt install -y wmctrl netcat xdotool
+$ sudo apt install -y wmctrl netcat xdotool
 
 1) Setup LXDE autostart
 
@@ -31,4 +31,4 @@ d) check result
 
 $ cat ~/.config/lxsession/LXDE-pi/autostart
 
-2) Reboot and it should auto-start
+2) Reboot and it should auto-start gqrx and wsjx
