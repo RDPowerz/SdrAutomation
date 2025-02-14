@@ -7,7 +7,7 @@ Typically it is run on a Pi and uses the default session manager, lxsession, to 
 
 It only works with the X Windows System enabled.
 
-See no-wayland.txt if you want to switch from Wayland to X.
+See the no-wayland.txt file in this repo if you want to switch from Wayland to X.
 
 Steps:
 
