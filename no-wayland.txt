@@ -1,0 +1,22 @@
+
+To disable Wayland on your Linux device:
+
+Steps:
+1) Open your distribution’s Wayland configuration file from one of the
+   following locations:
+        sudo nano /etc/gdm3/custom.conf
+        sudo nano /etc/gdm/custom.conf
+2)  Edit the sudo/root privileges using your preferred editor.
+    Delete the # in the line #WaylandEnable=false to change it to 
+    WaylandEnable=false.  Save your edits.
+
+Notes:
+1)  WaylandEnable=false forces your system to use X11 instead of Wayland. 
+    If you want to enable the Wayland Display Server again, change
+    WaylandEnable=false to WaylandEnable=true.
+2)  For these changes to take effect, choose from one of the following methods:
+      - Reboot the system 
+      - In the terminal, run this command: sudo systemctl restart gdm 
+    Running this command will close all open applications and log out all the
+    logged in users.
+
