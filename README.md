@@ -1,7 +1,7 @@
 # SdrAutomation
 Some scripts to automate use of SDR applications.  
 
-The initial script is one that starts gqrx.  
+The initial script is start-gqrx-wsjtx.sh which starts gqrx and wsjtx.  
 
 Typically it is run on a Pi and uses the default session manager, lxsession, to start it.  
 
