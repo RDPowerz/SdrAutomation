@@ -5,6 +5,10 @@ The initial script is one that starts gqrx.
 
 Typically it is run on a Pi and uses the default session manager, lxsession, to start it.  
 
+It only works with the X Windows System enabled.
+
+See no-wayland.txt if you want to switch from Wayland to X.
+
 Steps:
 
 0) Install needed tools 
