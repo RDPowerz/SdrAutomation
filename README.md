@@ -48,4 +48,6 @@ d) check result
 $ cat ~/.config/lxsession/LXDE-pi/autostart
 ```
 
-2) Reboot and it should auto-start gqrx and wsjx
+2) Reboot and it should auto-start gqrx in full screen mode.
+
+3) As of 14 Feb 2025, start-gqrx-wsjtx is not tested with current Raspberry Pi OS Bookworm, but it did work on an older version of Linux.
