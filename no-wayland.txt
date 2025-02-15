@@ -1,5 +1,15 @@
+--------------------------------------------------------------------------------
+To disable Wayland on Raspberry Pi Bookworm:
 
-To disable Wayland on your Linux device:
+$ sudo raspi-config
+  Select "6 Advanced Options" ->
+  Select "A6 Wayland" ->
+  Select "W1 X11" -> 
+  Use ESC TAB TAB to exit ->
+  Select "Yes" to reboot
+
+--------------------------------------------------------------------------------
+To disable Wayland on Debian 12 and perhaps other systems:
 
 Steps:
 1) Open your distribution’s Wayland configuration file from one of the
@@ -20,3 +30,4 @@ Notes:
     Running this command will close all open applications and log out all the
     logged in users.
 
+--------------------------------------------------------------------------------
